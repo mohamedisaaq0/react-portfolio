@@ -8,15 +8,15 @@ import TechBlog from "./images/TechBlog.png";
 export default function Project() {
   return (
     <section id="projects">
-      <div class="projects container">
-        <div class="projects-header">
-          <h1 class="section-title">
+      <div className="projects container">
+        <div className="projects-header">
+          <h1 className="section-title">
             Recent <span>Projects</span>
           </h1>
         </div>
-        <div class="all-projects">
-          <div class="project-item">
-            <div class="project-info">
+        <div className="all-projects">
+          <div className="project-item">
+            <div className="project-info">
               <h1>Code College</h1>
               <h2>Group Project</h2>
               <p>
@@ -35,28 +35,28 @@ export default function Project() {
                 #Express.JS / #Node.JS
               </p>
             </div>
-            <div class="project-img">
+            <div className="project-img">
               <a href="https://desolate-reef-02788.herokuapp.com/">
                 <img src={CodeCollege} alt="img" />
               </a>
             </div>
           </div>
 
-          <div class="project-item">
-            <div class="project-info">
+          <div className="project-item">
+            <div className="project-info">
               <h1>Tech Blog</h1>
               <h2>Self Project</h2>
               <p>COMING SOON!</p>
             </div>
 
-            <div class="project-img">
+            <div className="project-img">
               <a href="https://secret-chamber-33052.herokuapp.com/">
                 <img src={TechBlog} alt="img" />
               </a>
             </div>
           </div>
-          <div class="project-item">
-            <div class="project-info">
+          <div className="project-item">
+            <div className="project-info">
               <h1>Note Taker</h1>
               <h2>Self Project</h2>
               <p>
@@ -69,14 +69,14 @@ export default function Project() {
                 #Html / #Css / #Javascript / #Express.JS / #Node.JS
               </p>
             </div>
-            <div class="project-img">
+            <div className="project-img">
               <a href="https://beautiful-lake-clark-33694.herokuapp.com/">
                 <img src={NoteTaker} alt="img" />
               </a>
             </div>
           </div>
-          <div class="project-item">
-            <div class="project-info">
+          <div className="project-item">
+            <div className="project-info">
               <h1>Book Search</h1>
               <h2>Group Project</h2>
               <p>
@@ -91,7 +91,7 @@ export default function Project() {
                 #Html / #Css / #Javascript / #APIs
               </p>
             </div>
-            <div class="project-img">
+            <div className="project-img">
               <a href="https://mohamedisaaq0.github.io/group-project-1/">
                 <img src={BookSearch} alt="img" />
               </a>

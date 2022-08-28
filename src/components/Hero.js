@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section id="hero">
-      <div class="hero container">
+      <div className="hero container">
         <div>
           <h1>
             Hello, <span></span>

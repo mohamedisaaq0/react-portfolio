@@ -4,14 +4,14 @@ import profile from "./images/profile.jpeg";
 export default function AboutMe() {
   return (
     <section id="about">
-      <div class="about container">
-        <div class="col-left">
-          <div class="about-img">
+      <div className="about container">
+        <div className="col-left">
+          <div className="about-img">
             <img src={profile} alt="img" />
           </div>
         </div>
-        <div class="col-right">
-          <h1 class="section-title">
+        <div className="col-right">
+          <h1 className="section-title">
             About <span>me</span>
           </h1>
           <h2>Full Stack Web Developer</h2>
@@ -25,7 +25,7 @@ export default function AboutMe() {
           <a
             href="https://docs.google.com/document/d/1e6tYfTgS9n9GxhY5-7flfew_v-PPdE2M/edit?usp=sharing&ouid=100241470360859695388&rtpof=true&sd=true"
             download
-            class="cta"
+            className="cta"
           >
             Download Resume
           </a>

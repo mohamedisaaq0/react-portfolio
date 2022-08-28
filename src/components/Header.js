@@ -28,18 +28,21 @@ export default function Header() {
   });
   return (
     <section id="header" style={style}>
-      <div class="header container">
-        <div class="nav-bar">
-          <div class="brand">
+      <div className="header container">
+        <div className="nav-bar">
+          <div className="brand">
             <a href="#hero">
               <h1>
                 <span>P</span>ort<span>f</span>olio
               </h1>
             </a>
           </div>
-          <div class="nav-list">
-            <div class="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              <div class="bar"></div>
+          <div className="nav-list">
+            <div
+              className="hamburger"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              <div className="bar"></div>
             </div>
             <ul
               className={isMenuOpen ? "active" : ""}
