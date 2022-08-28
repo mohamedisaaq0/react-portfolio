@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c488e709.css",
-    "main.js": "/react-portfolio/static/js/main.91c180cd.js",
+    "main.js": "/react-portfolio/static/js/main.3ca4084e.js",
     "static/media/CodeCollege.png": "/react-portfolio/static/media/CodeCollege.e02a1cd55221d18fbd5d.png",
     "static/media/brennan-burling-ay53qag90W8-unsplash.jpg": "/react-portfolio/static/media/brennan-burling-ay53qag90W8-unsplash.d090fa0d5b5cdeb56431.jpg",
     "static/media/profile.jpeg": "/react-portfolio/static/media/profile.96148255416790f406b6.jpeg",
@@ -10,10 +10,10 @@
     "static/media/TechBlog.png": "/react-portfolio/static/media/TechBlog.968b97883850c1284e1a.png",
     "index.html": "/react-portfolio/index.html",
     "main.c488e709.css.map": "/react-portfolio/static/css/main.c488e709.css.map",
-    "main.91c180cd.js.map": "/react-portfolio/static/js/main.91c180cd.js.map"
+    "main.3ca4084e.js.map": "/react-portfolio/static/js/main.3ca4084e.js.map"
   },
   "entrypoints": [
     "static/css/main.c488e709.css",
-    "static/js/main.91c180cd.js"
+    "static/js/main.3ca4084e.js"
   ]
 }
