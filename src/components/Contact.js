@@ -119,7 +119,7 @@ class Contact extends React.Component {
           </div>
           <div className="contact-container">
             <Card>
-              <h1>Send us a Message!</h1>
+              <h1>Send me a Message!</h1>
               <Form>
                 <TextInput
                   {...name}
