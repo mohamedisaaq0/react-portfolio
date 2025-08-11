@@ -2,11 +2,15 @@
 FROM node:18-alpine AS builder
 WORKDIR /app
 
+# Copy package.json and package-lock.json if present
 COPY package*.json ./
-RUN npm ci
+# Use npm install because there's no package-lock.json in repo
+RUN npm install
 
+# Copy all source files
 COPY . .
-# CRA needs REACT_APP_* at build time; if you used it, set in Coolify build vars
+
+# Build the React app
 RUN npm run build
 
 # ---- runtime ----
@@ -15,5 +19,6 @@ FROM nginx:stable-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/build /usr/share/nginx/html
 
+# Nginx listens on port 80
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
